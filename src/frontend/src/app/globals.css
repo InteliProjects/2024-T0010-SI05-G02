@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    height: 100vh; 
+}
+
+.title {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: 'Montserrat Medium', sans-serif;
+    font-weight: 4000;
+    font-size: 90px;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat Medium', sans-serif;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 700px;
+    margin-bottom: 10px;
+    background-color: #ebebeb;
+    
+}
+
+.search-bar button {
+    /* padding: 15px 30px; */
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    /* width: 400px; */
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.search-bar button:hover {
+    background-color: #a9a9a9;
+}
+
+/* styles/Component2.module.css */
+.component2-text {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Montserrat-Thin';
+    padding-bottom: 10px; /* Adicionando uma margem inferior para criar espaço abaixo do texto principal */
+  }
+
+.component2-container {
+    width: 656px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #252525;
+    padding: 20px;
+  }
+  
+  .component2-container1,
+  .component2-container2,
+  .component2-container3 {
+    margin-top: 20px;
+  }
+  
+  .component2-item {
+    width: 360px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .component2-item span {
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  .component2-item input {
+    padding: 15px;
+    width: 100%; /* Definindo a largura como 100% para ocupar todo o espaço disponível */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ebebeb;
+  }
+  
+  .component2-button {
+    padding: 15px 30px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 400px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .component2-link {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #736f6f;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .component2-icon {
+    fill: #ffffff;
+    width: 24px;
+    height: 24px;
+    margin-top: 20px;
+  }
+
+  
+
+/* Estilos globais em styles.css ou outro arquivo CSS global */
+/* Personalize a barra de rolagem para toda a aplicação */
+::-webkit-scrollbar {
+  width: 4px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Cor de fundo da trilha da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a0a0a0; /* Cor da barra de rolagem */
+  border-radius: 20px; /* Raio da borda da barra de rolagem */
+}
+
+/* Personalize a barra de rolagem para um elemento específico */
+.scrollbar-minimalista::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollbar-minimalista::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-minimalista::-webkit-scrollbar-thumb {
+  background-color: #a0a0a0;
+  border-radius: 20px;
+}
