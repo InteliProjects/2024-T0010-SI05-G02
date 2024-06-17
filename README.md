@@ -1,6 +1,3 @@
-# 2024-T0010-SI05-G02
-Repositório do grupo 2024-T0010-SI05-G02
-
 # Inteli - Instituto de Tecnologia e Liderança 
 
 <p align="center">
